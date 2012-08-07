@@ -1,0 +1,34 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "height": 250,
+        "width": 400,
+        "title": "My Panel"
+    },
+    "id": "ExtBox1-ext-gen3703",
+    "designerId": "33b2450a-19f8-4163-a35b-61f62655a5fe",
+    "cn": [
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton",
+                "itemId": "sizeToggle",
+                "enableToggle": true,
+                "text": "MyButton"
+            },
+            "designerId": "b815b33e-56fe-4504-9c98-16ff612a3ada"
+        }
+    ]
+}

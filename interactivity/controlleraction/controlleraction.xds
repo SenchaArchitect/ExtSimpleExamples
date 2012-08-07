@@ -1,0 +1,57 @@
+{
+    "name": "controlleraction",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "33b2450a-19f8-4163-a35b-61f62655a5fe": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel"
+        },
+        "17ff1122-eedf-4ac0-93f0-5936ff74afd6": {
+            "paths": [
+                "metadata/controller/MyController",
+                "app/controller/override/MyController.js",
+                "app/controller/MyController.js"
+            ],
+            "className": "MyController"
+        },
+        "277a9ec0-8581-4700-9df3-6ed168a4713f": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "33b2450a-19f8-4163-a35b-61f62655a5fe"
+        ],
+        "store": [],
+        "controller": [
+            "17ff1122-eedf-4ac0-93f0-5936ff74afd6"
+        ],
+        "model": [],
+        "resource": [
+            "277a9ec0-8581-4700-9df3-6ed168a4713f"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

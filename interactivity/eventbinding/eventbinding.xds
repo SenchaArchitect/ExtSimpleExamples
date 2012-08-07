@@ -1,0 +1,47 @@
+{
+    "name": "eventbinding",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "ba462971-dcd9-4050-adb0-f261eb42500a": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel"
+        },
+        "3cdeed92-0433-4b0a-8fc2-9503c9963190": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "ba462971-dcd9-4050-adb0-f261eb42500a"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "3cdeed92-0433-4b0a-8fc2-9503c9963190"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

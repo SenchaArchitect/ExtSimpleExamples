@@ -1,0 +1,57 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "height": 250,
+        "width": 400,
+        "title": "My Panel"
+    },
+    "id": "ExtBox1-ext-gen1848",
+    "designerId": "ba462971-dcd9-4050-adb0-f261eb42500a",
+    "cn": [
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton",
+                "enableToggle": true,
+                "text": "MyButton"
+            },
+            "designerId": "c1bc739a-e9ed-4597-bbd6-bcf85a92d670",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "onButtonToggle",
+                        "fn": "onButtonToggle",
+                        "implHandler": [
+                            "if (pressed) {",
+                            "    this.setSize(100, 200);",
+                            "} else {",
+                            "    this.setSize(400, 250);",
+                            "}"
+                        ],
+                        "name": "toggle",
+                        "scope": "me"
+                    },
+                    "designerId": "22777bc9-2fe0-4982-8412-64c6210e7263"
+                }
+            ]
+        }
+    ]
+}
