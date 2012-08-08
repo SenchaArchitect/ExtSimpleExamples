@@ -1,0 +1,95 @@
+{
+    "type": "treepanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CheckTreePanel",
+        "designer|initialView": true,
+        "frame": true,
+        "height": 250,
+        "width": 200,
+        "title": "Check Tree",
+        "store": "MyJsonTreeStore",
+        "rootVisible": false,
+        "useArrows": true
+    },
+    "id": "ExtBox1-ext-gen8969",
+    "designerId": "210fbfe1-6a19-44e9-a66c-998d552d87da",
+    "cn": [
+        {
+            "type": "treeview",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTreeView"
+            },
+            "designerId": "ec813396-a542-49b2-ba60-1014d68619ca"
+        },
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top",
+                "designer|userClassName": "MyToolbar"
+            },
+            "designerId": "16f06239-d5c0-4f92-ae22-57bd8c7647dd",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "text": "Get Checked Nodes"
+                    },
+                    "designerId": "1b8c1cb2-13ed-456a-b66d-036a334c1ad2",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onButtonClick",
+                                "fn": "onButtonClick",
+                                "implHandler": [
+                                    "var records = this.getView().getChecked(),",
+                                    "    names = [];",
+                                    "",
+                                    "Ext.Array.each(records, function(rec) {",
+                                    "    names.push(rec.get('text'));",
+                                    "});",
+                                    "",
+                                    "Ext.MessageBox.show({",
+                                    "    title: 'Selected Nodes',",
+                                    "    msg: names.join('<br/>'),",
+                                    "    icon: Ext.MessageBox.INFO",
+                                    "});"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "dea3153e-45e1-4451-9cc5-2cd165ec2d16"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

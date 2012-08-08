@@ -1,0 +1,225 @@
+{
+    "type": "form",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SimpleFieldsetsForm",
+        "designer|userAlias": "simplefieldsetsform",
+        "frame": true,
+        "height": null,
+        "width": 496,
+        "bodyPadding": 10,
+        "title": "Simple Form with FieldSets"
+    },
+    "id": "ExtBox1-ext-gen31737",
+    "designerId": "cc8897bd-a2b0-45f8-8dbc-c6568a73e9b7",
+    "cn": [
+        {
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyFieldSet",
+                "checkboxToggle": true,
+                "collapsed": true,
+                "title": "User Information"
+            },
+            "designerId": "f5c03965-15c3-4d7d-883f-c40aee7f98d9",
+            "cn": [
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField4",
+                        "fieldLabel": "First Name"
+                    },
+                    "designerId": "7ed58352-aaa7-4439-ab15-37b5833749b1"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField5",
+                        "fieldLabel": "Last Name"
+                    },
+                    "designerId": "534f0c63-2def-485c-b64b-63723b64bde1"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField6",
+                        "fieldLabel": "Company"
+                    },
+                    "designerId": "ca0dab48-5f15-48d3-8176-ceeda2c2b052"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField7",
+                        "fieldLabel": "Email"
+                    },
+                    "designerId": "4f0d7551-448e-4b49-8817-a58725b04fa3"
+                }
+            ]
+        },
+        {
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyFieldSet1",
+                "collapsible": true,
+                "title": "Phone Number"
+            },
+            "designerId": "56894b65-01ea-4b60-8f04-170d8e7dcad9",
+            "cn": [
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField8",
+                        "fieldLabel": "Home"
+                    },
+                    "designerId": "83fe9f51-ff2d-4d81-b6fc-7024135cc499"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField9",
+                        "fieldLabel": "Business"
+                    },
+                    "designerId": "c96dbf79-98d2-487d-84d3-e52211e45c60"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField10",
+                        "fieldLabel": "Mobile"
+                    },
+                    "designerId": "94aabda2-9b40-4572-8e24-3957f5c94388"
+                },
+                {
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "designer|userClassName": "MyTextField11",
+                        "fieldLabel": "Fax"
+                    },
+                    "designerId": "5f52fb2b-c5d7-4970-8aec-09aa74fc2a9b"
+                }
+            ]
+        },
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom",
+                "designer|userClassName": "MyToolbar",
+                "ui": [
+                    "footer"
+                ]
+            },
+            "designerId": "f1a4e72d-cb03-43e8-8e85-64bca1adb3cc",
+            "cn": [
+                {
+                    "type": "tbfill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyFill"
+                    },
+                    "designerId": "19403dc4-4ae6-4de6-8dfa-84fbdbc04130"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "text": "Save"
+                    },
+                    "designerId": "79195273-9f02-45df-8e24-a53c632f7a82"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton1",
+                        "text": "Cancel"
+                    },
+                    "designerId": "42edb84f-9612-4359-8fe2-fb82850fb41e"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "name": "dynamic-form",
+    "settings": {
+        "urlPrefix": "http://localhost/",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "cssPath": ""
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "40a9bdb8-e68d-4cdf-9be4-80170950d154": {
+            "paths": [
+                "metadata/view/SimpleForm",
+                "app/view/override/SimpleForm.js",
+                "app/view/SimpleForm.js"
+            ],
+            "className": "SimpleForm"
+        },
+        "cc8897bd-a2b0-45f8-8dbc-c6568a73e9b7": {
+            "paths": [
+                "metadata/view/SimpleFieldsetsForm",
+                "app/view/override/SimpleFieldsetsForm.js",
+                "app/view/SimpleFieldsetsForm.js"
+            ],
+            "className": "SimpleFieldsetsForm"
+        },
+        "415d69c7-ca15-4743-86c0-8d89812d2e94": {
+            "paths": [
+                "metadata/view/ComplexLayoutForm",
+                "app/view/override/ComplexLayoutForm.js",
+                "app/view/ComplexLayoutForm.js"
+            ],
+            "className": "ComplexLayoutForm"
+        },
+        "d7a7e6af-19be-4235-b92d-f8c886f10777": {
+            "paths": [
+                "metadata/view/TabbedForm",
+                "app/view/override/TabbedForm.js",
+                "app/view/TabbedForm.js"
+            ],
+            "className": "TabbedForm"
+        },
+        "bf1a0f8c-b532-4091-b840-140f6fd8fa77": {
+            "paths": [
+                "metadata/view/ComplexForm",
+                "app/view/override/ComplexForm.js",
+                "app/view/ComplexForm.js"
+            ],
+            "className": "ComplexForm"
+        },
+        "340476aa-6d5c-4bc9-a1b7-b24cad29bcd3": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "02ce0e84-bd46-4d58-b6bd-2f77cc388d15": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "bf1a0f8c-b532-4091-b840-140f6fd8fa77",
+            "415d69c7-ca15-4743-86c0-8d89812d2e94",
+            "40a9bdb8-e68d-4cdf-9be4-80170950d154",
+            "cc8897bd-a2b0-45f8-8dbc-c6568a73e9b7",
+            "d7a7e6af-19be-4235-b92d-f8c886f10777",
+            "340476aa-6d5c-4bc9-a1b7-b24cad29bcd3"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "02ce0e84-bd46-4d58-b6bd-2f77cc388d15"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

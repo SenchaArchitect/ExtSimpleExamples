@@ -1,0 +1,268 @@
+{
+    "type": "window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyWindow",
+        "designer|userAlias": "mywindow",
+        "designer|initialView": true,
+        "autoShow": true,
+        "height": 600,
+        "width": 800,
+        "shadow": [
+            "false"
+        ],
+        "layout": "fit",
+        "title": "Area Chart",
+        "maximizable": true
+    },
+    "id": "ExtBox1-ext-gen78299",
+    "designerId": "2f0a83e9-cc8c-4aeb-b6d7-6f685decfa16",
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top",
+                "designer|userClassName": "MyToolbar"
+            },
+            "designerId": "416bb12b-d066-42b0-8cba-c710ad5aac01",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "text": "Reload Data"
+                    },
+                    "designerId": "8849040b-6b28-48e2-9a0c-05cbf60d7ba5",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onButtonClick",
+                                "fn": "onButtonClick",
+                                "implHandler": [
+                                    "this.refreshData();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "75f13f13-d58a-41c0-8815-325e90e3a1e3"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton1",
+                        "enableToggle": true,
+                        "pressed": true,
+                        "text": "Animate"
+                    },
+                    "designerId": "91118b2b-7f53-4624-8891-6c3ecab485ed",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onButtonToggle",
+                                "fn": "onButtonToggle",
+                                "implHandler": [
+                                    "var chart = this.child('chart');",
+                                    "chart.animate = pressed ? {easing: 'ease', duration: 500} : false;"
+                                ],
+                                "name": "toggle",
+                                "scope": "me"
+                            },
+                            "designerId": "837f7444-00ea-4ebd-915a-64e852874cd0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "chart",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyChart",
+                "height": 250,
+                "itemId": "chart",
+                "width": 400,
+                "animate": [
+                    "true"
+                ],
+                "insetPadding": 20,
+                "store": "MyStore"
+            },
+            "designerId": "5644be3d-bd94-4680-9950-a6f69b3e3633",
+            "cn": [
+                {
+                    "type": "numericaxis",
+                    "reference": {
+                        "name": "axes",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumericAxis",
+                        "fields": [
+                            "data1",
+                            "data2",
+                            "data3",
+                            "data4",
+                            "data5",
+                            "data6",
+                            "data7"
+                        ],
+                        "grid": [
+                            "{",
+                            "                    odd: {",
+                            "                        opacity: 1,",
+                            "                        fill: '#ddd',",
+                            "                        stroke: '#bbb',",
+                            "                        'stroke-width': 1",
+                            "                    }",
+                            "                }"
+                        ],
+                        "position": "left",
+                        "title": "Numeric Axis",
+                        "minimum": 0
+                    },
+                    "designerId": "af831918-d492-44b5-8f67-92658448335c"
+                },
+                {
+                    "type": "categoryaxis",
+                    "reference": {
+                        "name": "axes",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyCategoryAxis",
+                        "fields": [
+                            "name"
+                        ],
+                        "grid": [
+                            "true"
+                        ],
+                        "label": [
+                            "{\"rotate\":{\"degrees\":315}}"
+                        ],
+                        "position": "bottom",
+                        "title": "Month of the Year"
+                    },
+                    "designerId": "ffc0b368-4f45-4c72-b6e7-5a7dd8786ad0"
+                },
+                {
+                    "type": "areaseries",
+                    "reference": {
+                        "name": "series",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyAreaSeries",
+                        "xField": "name",
+                        "yField": [
+                            "data1",
+                            "data2",
+                            "data3",
+                            "data4",
+                            "data5",
+                            "data6",
+                            "data7"
+                        ]
+                    },
+                    "designerId": "ba391d4e-105e-4b4a-be21-20a6b39b8e3b"
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "refreshData",
+                "fn": "refreshData",
+                "implHandler": [
+                    "var data = [],",
+                    "    floor = 20,",
+                    "    n = 12,",
+                    "    i;",
+                    "",
+                    "for (i = 0; i < n; i++) {",
+                    "    data.push({",
+                    "        name: Ext.Date.monthNames[i % 12],",
+                    "        data1: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data2: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data3: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data4: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data5: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data6: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data7: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data8: Math.floor(Math.max((Math.random() * 100), floor)),",
+                    "        data9: Math.floor(Math.max((Math.random() * 100), floor))",
+                    "    });",
+                    "}",
+                    "",
+                    "this.child('chart').store.loadData(data);",
+                    ""
+                ]
+            },
+            "designerId": "4d45f12b-2489-44b5-bc8a-a6d88300fea3"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onWindowAfterRender",
+                "fn": "onWindowAfterRender",
+                "implHandler": [
+                    "this.refreshData();"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "designerId": "e026f61b-bb84-4d08-850d-7945c1c86761"
+        }
+    ]
+}

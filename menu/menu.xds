@@ -1,0 +1,73 @@
+{
+    "name": "menu",
+    "settings": {
+        "urlPrefix": "http://localhost/",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "cssPath": ""
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "990d7fd5-5b1a-43aa-953b-8ecf4961376d": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel"
+        },
+        "a3b69168-62a2-4af4-bccf-0528f6af43ba": {
+            "paths": [
+                "metadata/view/MyComboBox",
+                "app/view/override/MyComboBox.js",
+                "app/view/MyComboBox.js"
+            ],
+            "className": "MyComboBox"
+        },
+        "e9a5055a-f6e2-4d98-bf33-0d1fd5153385": {
+            "paths": [
+                "metadata/store/ComboStore",
+                "app/store/override/ComboStore.js",
+                "app/store/ComboStore.js"
+            ],
+            "className": "ComboStore"
+        },
+        "5c9acaab-5bfa-4d18-8386-803272f88da8": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "990d7fd5-5b1a-43aa-953b-8ecf4961376d",
+            "a3b69168-62a2-4af4-bccf-0528f6af43ba"
+        ],
+        "store": [
+            "e9a5055a-f6e2-4d98-bf33-0d1fd5153385"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "5c9acaab-5bfa-4d18-8386-803272f88da8"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

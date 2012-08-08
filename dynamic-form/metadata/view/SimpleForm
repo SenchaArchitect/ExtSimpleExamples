@@ -1,0 +1,150 @@
+{
+    "type": "form",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SimpleForm",
+        "designer|userAlias": "simpleform",
+        "frame": true,
+        "height": 212,
+        "width": 351,
+        "bodyPadding": 10,
+        "title": "Simple Form"
+    },
+    "id": "ExtBox1-ext-gen28044",
+    "designerId": "40a9bdb8-e68d-4cdf-9be4-80170950d154",
+    "cn": [
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|anchor": "100%",
+                "designer|userClassName": "MyTextField",
+                "fieldLabel": "First Name"
+            },
+            "designerId": "7072a2f2-01c0-4871-b337-c5432b0f792e"
+        },
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|anchor": "100%",
+                "designer|userClassName": "MyTextField1",
+                "fieldLabel": "Last Name"
+            },
+            "designerId": "5f5b1671-2fa7-42eb-aeae-512a4eaf65b2"
+        },
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|anchor": "100%",
+                "designer|userClassName": "MyTextField2",
+                "fieldLabel": "Company"
+            },
+            "designerId": "34c05101-68a4-49d8-b4ac-78c67a489dcf"
+        },
+        {
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|anchor": "100%",
+                "designer|userClassName": "MyTextField3",
+                "fieldLabel": "Email"
+            },
+            "designerId": "736fa1db-f206-439e-a028-6e7d89bd6404"
+        },
+        {
+            "type": "timefield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|anchor": "100%",
+                "designer|userClassName": "MyTimeField",
+                "fieldLabel": "Time"
+            },
+            "designerId": "dd4461b0-4ba1-42ad-87c6-7783d0b3a985"
+        },
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom",
+                "designer|userClassName": "MyToolbar",
+                "ui": [
+                    "footer"
+                ]
+            },
+            "designerId": "46ccf984-611c-409b-a61e-755622b787eb",
+            "cn": [
+                {
+                    "type": "tbfill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyFill"
+                    },
+                    "designerId": "b5dae677-aaf4-4698-90fb-c1688dffcfb5"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "text": "Save"
+                    },
+                    "designerId": "21f7fc3d-40be-4c1d-bfe8-df40472cfba5"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton1",
+                        "text": "Cancel"
+                    },
+                    "designerId": "b53a00f6-8227-48a2-93ee-6568aa046450"
+                }
+            ]
+        }
+    ]
+}

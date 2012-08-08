@@ -1,0 +1,57 @@
+{
+    "type": "treestore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyJsonTreeStore",
+        "autoLoad": true,
+        "storeId": "MyJsonTreeStore"
+    },
+    "id": "ExtBox1-ext-gen12152",
+    "designerId": "4b3a04fc-7d9a-48df-abfe-294fea59d8c6",
+    "cn": [
+        {
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "check-nodes.json"
+            },
+            "designerId": "43a3aeec-0061-4419-9d8c-775b65e94e85",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "7af5920a-05dc-42d3-926a-20ad6d2074af"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField",
+                "name": "text"
+            },
+            "designerId": "e985789e-65c1-4cd8-b939-afc9b78b1a51"
+        }
+    ]
+}

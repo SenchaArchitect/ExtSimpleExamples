@@ -1,0 +1,63 @@
+{
+    "name": "check-tree",
+    "settings": {
+        "urlPrefix": "http://localhost/SenchaDesignerExamples/ext40/check-tree/",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp"
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "210fbfe1-6a19-44e9-a66c-998d552d87da": {
+            "paths": [
+                "metadata/view/CheckTreePanel",
+                "app/view/override/CheckTreePanel.js",
+                "app/view/CheckTreePanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "CheckTreePanel"
+        },
+        "4b3a04fc-7d9a-48df-abfe-294fea59d8c6": {
+            "paths": [
+                "metadata/store/MyJsonTreeStore",
+                "app/store/override/MyJsonTreeStore.js",
+                "app/store/MyJsonTreeStore.js"
+            ],
+            "className": "MyJsonTreeStore"
+        },
+        "b456b60c-fe30-4878-8ff0-14ab6692780c": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "210fbfe1-6a19-44e9-a66c-998d552d87da"
+        ],
+        "store": [
+            "4b3a04fc-7d9a-48df-abfe-294fea59d8c6"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "b456b60c-fe30-4878-8ff0-14ab6692780c"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
