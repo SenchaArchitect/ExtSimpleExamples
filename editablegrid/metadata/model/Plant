@@ -1,0 +1,100 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Plant"
+    },
+    "id": "ExtBox1-ext-gen4270",
+    "designerId": "31e74150-2d58-4893-8b84-7a4713d022f0",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField",
+                "name": "common",
+                "type": "string"
+            },
+            "designerId": "12305158-391a-45e6-add6-418b667bf19d"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField1",
+                "name": "botanical",
+                "type": "string"
+            },
+            "designerId": "18a7d305-ab29-424a-b817-820169f491fc"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField2",
+                "name": "light"
+            },
+            "designerId": "bcd91a08-c0be-415d-bab3-a32f95e2ea76"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField3",
+                "name": "price",
+                "type": "float"
+            },
+            "designerId": "66b35b1c-c45c-4456-887f-2802bcdb6bf9"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField4",
+                "dateFormat": "m/d/Y",
+                "mapping": "availability",
+                "name": "availDate",
+                "type": "date"
+            },
+            "designerId": "456f630a-7064-447d-8e0b-b8913131a164"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField5",
+                "name": "indoor",
+                "type": "boolean"
+            },
+            "designerId": "8ff7af06-2542-42f7-80e3-f506c010a677"
+        }
+    ]
+}

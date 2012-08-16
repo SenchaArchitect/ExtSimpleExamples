@@ -1,0 +1,335 @@
+{
+    "type": "gridpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PlantsGridPanel",
+        "designer|userAlias": "plantsgrid",
+        "designer|initialView": true,
+        "frame": true,
+        "height": 300,
+        "width": 600,
+        "title": "Edit Plants?",
+        "store": "Plants"
+    },
+    "id": "ExtBox1-ext-gen2287",
+    "designerId": "4fc00b67-1f2d-4197-89ae-5cfccc16877d",
+    "cn": [
+        {
+            "type": "gridcolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn",
+                "id": "common",
+                "dataIndex": "common",
+                "editor": [
+                    "{",
+                    "    allowBlank: false",
+                    "}"
+                ],
+                "flex": 1,
+                "text": "Common Name"
+            },
+            "designerId": "959d7afc-89fd-4ec9-9f11-333023969308"
+        },
+        {
+            "type": "gridcolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "width": 130,
+                "dataIndex": "light",
+                "editor": [
+                    "{",
+                    "    xtype: 'combobox',",
+                    "    store:  [",
+                    "        ['Shade','Shade'],",
+                    "        ['Mostly Shady','Mostly Shady'],",
+                    "        ['Sun or Shade','Sun or Shade'],",
+                    "        ['Mostly Sunny','Mostly Sunny'],",
+                    "        ['Sunny','Sunny']",
+                    "   ],",
+                    "    ",
+                    "}"
+                ],
+                "text": "Light"
+            },
+            "designerId": "36fb8676-c60a-4871-af06-f892c13160c5"
+        },
+        {
+            "type": "gridcolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn2",
+                "width": 70,
+                "align": "right",
+                "dataIndex": "price",
+                "editor": [
+                    "{",
+                    "    xtype: 'numberfield',",
+                    "    allowBlank: false,",
+                    "    minValue: 0,",
+                    "    maxValue: 100000",
+                    "}"
+                ],
+                "text": "Price"
+            },
+            "designerId": "60de653e-ab62-4627-a837-e5d0b772d7a7",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "renderer",
+                        "fn": "renderer",
+                        "designer|params": [
+                            "value",
+                            "metaData",
+                            "record",
+                            "rowIndex",
+                            "colIndex",
+                            "store",
+                            "view"
+                        ],
+                        "implHandler": [
+                            "return Ext.util.Format.currency(value, '$', 2) "
+                        ]
+                    },
+                    "designerId": "5d2ebc44-9bbd-43b4-9450-dfae943afd71"
+                }
+            ]
+        },
+        {
+            "type": "gridcolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn3",
+                "width": 95,
+                "dataIndex": "availDate",
+                "editor": [
+                    "{",
+                    "    xtype: 'datefield',",
+                    "    format: 'm/d/y',",
+                    "    minValue: '01/01/06',",
+                    "    disabledDays: [0, 6],",
+                    "    disabledDaysText: 'Plants are not available on the weekends'",
+                    "}"
+                ],
+                "text": "Available"
+            },
+            "designerId": "e7b4c537-5175-4302-8d5e-8956e51ec7b0",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "renderer",
+                        "fn": "renderer",
+                        "designer|params": [
+                            "value",
+                            "metaData",
+                            "record",
+                            "rowIndex",
+                            "colIndex",
+                            "store",
+                            "view"
+                        ],
+                        "implHandler": [
+                            " return value ? Ext.Date.dateFormat(value, 'M d, Y') : '';"
+                        ]
+                    },
+                    "designerId": "99280ab6-18b8-4dec-ba34-5ba0f3a1dfe3"
+                }
+            ]
+        },
+        {
+            "type": "gridview",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGridView"
+            },
+            "designerId": "bdd87768-9730-4264-8886-bf843dd83821"
+        },
+        {
+            "type": "gridcelleditingplugin",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": "Ext.grid.plugin.CellEditing",
+            "userConfig": {
+                "designer|userClassName": "MyCellEditingPlugin",
+                "pluginId": "CellEditing"
+            },
+            "designerId": "86025254-396a-4669-939a-4083aebe417d"
+        },
+        {
+            "type": "actioncolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyActionColumn",
+                "frame": false,
+                "height": null,
+                "id": "delete",
+                "width": 30,
+                "sortable": false
+            },
+            "designerId": "a055c721-a7f3-4979-94eb-8675db34ca0e",
+            "cn": [
+                {
+                    "type": "actioncolumnitem",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyActionColumnItem",
+                        "disabled": false,
+                        "icon": "resources/delete.gif",
+                        "tooltip": "Delete plant"
+                    },
+                    "designerId": "fb1329a9-6079-4449-958a-edf2dc7d5ca7",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "view",
+                                    "rowIndex",
+                                    "colIndex",
+                                    "item",
+                                    "e",
+                                    "record",
+                                    "row"
+                                ],
+                                "implHandler": [
+                                    "view.getStore().removeAt(rowIndex);"
+                                ]
+                            },
+                            "designerId": "9f2ad1b7-6f4d-4395-94c4-56c582128987"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "cellselectionmodel",
+            "reference": {
+                "name": "selModel",
+                "type": "object"
+            },
+            "codeClass": "Ext.selection.CellModel",
+            "userConfig": {
+                "designer|userClassName": "MyCellSelectionModel"
+            },
+            "designerId": "09499740-e9ee-4bd5-82da-47920040351d"
+        },
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top",
+                "designer|userClassName": "MyToolbar"
+            },
+            "designerId": "c39389ee-3e0f-43b7-a1a5-8ca7fe667ece",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyButton",
+                        "id": "add",
+                        "text": "Add Plant"
+                    },
+                    "designerId": "e34773a8-2f07-4de3-9d55-7059cce5f9dd",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "handler",
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "// Create a model instance",
+                                    "var r = Ext.create('EditableGrid.model.Plant', {",
+                                    "    common: 'New Plant 1',",
+                                    "    light: 'Mostly Shady',",
+                                    "    price: 0,",
+                                    "    availDate: Ext.Date.clearTime(new Date()),",
+                                    "    indoor: false",
+                                    "}),",
+                                    "    plantsGrid = this.up('plantsgrid');",
+                                    "",
+                                    "plantsGrid.getStore().insert(0, r);",
+                                    "",
+                                    "plantsGrid.getPlugin('CellEditing').startEditByPosition({row: 0, column: 0});"
+                                ]
+                            },
+                            "designerId": "042680c4-640a-46dd-878f-24396cda06f2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
