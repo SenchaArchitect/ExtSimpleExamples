@@ -7,29 +7,37 @@
         "resource": true,
         "4fc00b67-1f2d-4197-89ae-5cfccc16877d": {
             "id": "4fc00b67-1f2d-4197-89ae-5cfccc16877d",
-            "expanded": false,
             "cn": [
                 {
                     "id": "959d7afc-89fd-4ec9-9f11-333023969308"
                 },
                 {
-                    "id": "36fb8676-c60a-4871-af06-f892c13160c5"
+                    "id": "36fb8676-c60a-4871-af06-f892c13160c5",
+                    "cn": [
+                        {
+                            "id": "4794b3a0-66fe-44f0-8738-f32bd07d9034"
+                        }
+                    ]
                 },
                 {
                     "id": "60de653e-ab62-4627-a837-e5d0b772d7a7",
-                    "expanded": false,
                     "cn": [
                         {
                             "id": "5d2ebc44-9bbd-43b4-9450-dfae943afd71"
+                        },
+                        {
+                            "id": "25800346-4903-4d2b-8883-4eea59db522f"
                         }
                     ]
                 },
                 {
                     "id": "e7b4c537-5175-4302-8d5e-8956e51ec7b0",
-                    "expanded": false,
                     "cn": [
                         {
                             "id": "99280ab6-18b8-4dec-ba34-5ba0f3a1dfe3"
+                        },
+                        {
+                            "id": "7d480c33-a277-4ba0-b412-de111b8ff8dd"
                         }
                     ]
                 },

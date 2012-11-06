@@ -4,6 +4,7 @@
         "urlPrefix": "http://localhost/",
         "spacesToIndent": 4,
         "exportPath": "",
+        "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
         "cacheBust": false,
@@ -15,10 +16,10 @@
         "appName": "MyApp",
         "cssPath": ""
     },
-    "xdsVersion": "2.0.0",
-    "xdsBuild": 557,
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000495,
+    "upgradeVersion": 210000000498,
     "framework": "ext40",
     "topInstanceFileMap": {
         "990d7fd5-5b1a-43aa-953b-8ecf4961376d": {

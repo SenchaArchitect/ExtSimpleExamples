@@ -29,11 +29,6 @@
                 "designer|userClassName": "MyColumn",
                 "id": "common",
                 "dataIndex": "common",
-                "editor": [
-                    "{",
-                    "    allowBlank: false",
-                    "}"
-                ],
                 "flex": 1,
                 "text": "Common Name"
             },
@@ -50,22 +45,23 @@
                 "designer|userClassName": "MyColumn1",
                 "width": 130,
                 "dataIndex": "light",
-                "editor": [
-                    "{",
-                    "    xtype: 'combobox',",
-                    "    store:  [",
-                    "        ['Shade','Shade'],",
-                    "        ['Mostly Shady','Mostly Shady'],",
-                    "        ['Sun or Shade','Sun or Shade'],",
-                    "        ['Mostly Sunny','Mostly Sunny'],",
-                    "        ['Sunny','Sunny']",
-                    "   ],",
-                    "    ",
-                    "}"
-                ],
                 "text": "Light"
             },
-            "designerId": "36fb8676-c60a-4871-af06-f892c13160c5"
+            "designerId": "36fb8676-c60a-4871-af06-f892c13160c5",
+            "cn": [
+                {
+                    "type": "combobox",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyComboBox"
+                    },
+                    "designerId": "4794b3a0-66fe-44f0-8738-f32bd07d9034"
+                }
+            ]
         },
         {
             "type": "gridcolumn",
@@ -79,14 +75,6 @@
                 "width": 70,
                 "align": "right",
                 "dataIndex": "price",
-                "editor": [
-                    "{",
-                    "    xtype: 'numberfield',",
-                    "    allowBlank: false,",
-                    "    minValue: 0,",
-                    "    maxValue: 100000",
-                    "}"
-                ],
                 "text": "Price"
             },
             "designerId": "60de653e-ab62-4627-a837-e5d0b772d7a7",
@@ -115,6 +103,21 @@
                         ]
                     },
                     "designerId": "5d2ebc44-9bbd-43b4-9450-dfae943afd71"
+                },
+                {
+                    "type": "numberfield",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumberField",
+                        "allowBlank": false,
+                        "maxValue": 100000,
+                        "minValue": 0
+                    },
+                    "designerId": "25800346-4903-4d2b-8883-4eea59db522f"
                 }
             ]
         },
@@ -129,15 +132,6 @@
                 "designer|userClassName": "MyColumn3",
                 "width": 95,
                 "dataIndex": "availDate",
-                "editor": [
-                    "{",
-                    "    xtype: 'datefield',",
-                    "    format: 'm/d/y',",
-                    "    minValue: '01/01/06',",
-                    "    disabledDays: [0, 6],",
-                    "    disabledDaysText: 'Plants are not available on the weekends'",
-                    "}"
-                ],
                 "text": "Available"
             },
             "designerId": "e7b4c537-5175-4302-8d5e-8956e51ec7b0",
@@ -166,6 +160,21 @@
                         ]
                     },
                     "designerId": "99280ab6-18b8-4dec-ba34-5ba0f3a1dfe3"
+                },
+                {
+                    "type": "datefield",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyDateField",
+                        "disabledDays": "[0,6]",
+                        "disabledDaysText": "Plants are not available on the weekends",
+                        "format": "m/d/y"
+                    },
+                    "designerId": "7d480c33-a277-4ba0-b412-de111b8ff8dd"
                 }
             ]
         },
