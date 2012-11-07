@@ -58,7 +58,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "designer|userClassName": "MyComboBox",
-                        "store": "Plants"
+                        "store": "['Shade','Mostly Shady','Sun or Shade','Mostly Sunny','Sunny']"
+                    },
+                    "configAlternates": {
+                        "store": "array"
                     },
                     "designerId": "4794b3a0-66fe-44f0-8738-f32bd07d9034"
                 }
