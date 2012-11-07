@@ -75,9 +75,9 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField4",
+                "name": "availDate",
                 "dateFormat": "m/d/Y",
                 "mapping": "availability",
-                "name": "availDate",
                 "type": "date"
             },
             "designerId": "456f630a-7064-447d-8e0b-b8913131a164"

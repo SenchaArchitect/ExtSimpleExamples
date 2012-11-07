@@ -104,8 +104,8 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyField4",
-                "dateFormat": "n/j h:ia",
                 "name": "lastChange",
+                "dateFormat": "n/j h:ia",
                 "type": "date"
             },
             "designerId": "49ef3ff9-d96d-4dac-a0d7-706183987464"
