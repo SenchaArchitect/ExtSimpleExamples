@@ -4,14 +4,15 @@
         "urlPrefix": "http://localhost/Code/sample-apps/editablegrid",
         "spacesToIndent": 4,
         "exportPath": "",
+        "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
         "cacheBust": false
     },
-    "xdsVersion": "2.0.0",
-    "xdsBuild": 575,
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000495,
+    "upgradeVersion": 210000000498,
     "framework": "ext41",
     "topInstanceFileMap": {
         "4fc00b67-1f2d-4197-89ae-5cfccc16877d": {
