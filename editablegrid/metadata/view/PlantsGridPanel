@@ -57,7 +57,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyComboBox"
+                        "designer|userClassName": "MyComboBox",
+                        "store": "Plants"
                     },
                     "designerId": "4794b3a0-66fe-44f0-8738-f32bd07d9034"
                 }

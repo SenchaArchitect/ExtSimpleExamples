@@ -41,7 +41,8 @@ Ext.define('EditableGrid.view.PlantsGridPanel', {
                     dataIndex: 'light',
                     text: 'Light',
                     editor: {
-                        xtype: 'combobox'
+                        xtype: 'combobox',
+                        store: 'Plants'
                     }
                 },
                 {
