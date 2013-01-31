@@ -1,22 +1,21 @@
 {
-    "type": "panel",
+    "type": "Ext.panel.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "MyPanel",
-        "designer|initialView": true,
         "height": 257,
         "width": 584,
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
         "title": "My Panel"
     },
-    "id": "ExtBox1-ext-gen16828",
     "designerId": "990d7fd5-5b1a-43aa-953b-8ecf4961376d",
     "cn": [
         {
-            "type": "toolbar",
+            "type": "Ext.toolbar.Toolbar",
             "reference": {
                 "name": "dockedItems",
                 "type": "array"
@@ -29,7 +28,7 @@
             "designerId": "fb9dfc5e-f274-4497-8f4e-926e90f767bf",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -43,7 +42,7 @@
                     "designerId": "440b97a9-202a-43d6-ae7b-0d5ab29f8178",
                     "cn": [
                         {
-                            "type": "menu",
+                            "type": "Ext.menu.Menu",
                             "reference": {
                                 "name": "menu",
                                 "type": "object"
@@ -62,10 +61,10 @@
                                     },
                                     "codeClass": null,
                                     "designerId": "befe714a-2228-46c1-b5e4-77b057572004",
-                                    "masterInstanceId": "ExtBox1-ext-gen20090"
+                                    "masterInstanceId": "a3b69168-62a2-4af4-bccf-0528f6af43ba"
                                 },
                                 {
-                                    "type": "menuitem",
+                                    "type": "Ext.menu.Item",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
@@ -78,35 +77,35 @@
                                     "designerId": "0226b710-9858-49dc-a5d5-f75414ae4698",
                                     "cn": [
                                         {
-                                            "type": "menu",
+                                            "type": "Ext.menu.Menu",
                                             "reference": {
                                                 "name": "menu",
                                                 "type": "object"
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "designer|userClassName": "MyMenu1",
-                                                "width": 120
+                                                "width": 120,
+                                                "designer|userClassName": "MyMenu1"
                                             },
                                             "designerId": "a4b3b066-d6a3-4f33-8f19-9825841d1c5a",
                                             "cn": [
                                                 {
-                                                    "type": "component",
+                                                    "type": "Ext.Component",
                                                     "reference": {
                                                         "name": "items",
                                                         "type": "array"
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "designer|userClassName": "MyComponent",
                                                         "html": [
                                                             "<b class=\"menu-title\">Choose a Theme</b>"
-                                                        ]
+                                                        ],
+                                                        "designer|userClassName": "MyComponent"
                                                     },
                                                     "designerId": "2c96609d-f2c8-46b5-8382-7b95c65d58cb"
                                                 },
                                                 {
-                                                    "type": "menuitem",
+                                                    "type": "Ext.menu.Item",
                                                     "reference": {
                                                         "name": "items",
                                                         "type": "array"
@@ -119,7 +118,7 @@
                                                     "designerId": "ce9b0e96-e175-4aa7-81ec-41e5edc4e1f0"
                                                 },
                                                 {
-                                                    "type": "menuitem",
+                                                    "type": "Ext.menu.Item",
                                                     "reference": {
                                                         "name": "items",
                                                         "type": "array"
@@ -132,7 +131,7 @@
                                                     "designerId": "eaaf9aa6-efce-44c4-bc81-1d5c8c71f74d"
                                                 },
                                                 {
-                                                    "type": "menuitem",
+                                                    "type": "Ext.menu.Item",
                                                     "reference": {
                                                         "name": "items",
                                                         "type": "array"
@@ -145,7 +144,7 @@
                                                     "designerId": "ae39b92f-e36f-40b5-9d4c-92aec4a05766"
                                                 },
                                                 {
-                                                    "type": "menuitem",
+                                                    "type": "Ext.menu.Item",
                                                     "reference": {
                                                         "name": "items",
                                                         "type": "array"
@@ -162,7 +161,7 @@
                                     ]
                                 },
                                 {
-                                    "type": "menuitem",
+                                    "type": "Ext.menu.Item",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
@@ -176,7 +175,7 @@
                                     "designerId": "09062fc2-7ea0-4efc-a6e2-73e20f85d2f1",
                                     "cn": [
                                         {
-                                            "type": "datemenu",
+                                            "type": "Ext.menu.DatePicker",
                                             "reference": {
                                                 "name": "menu",
                                                 "type": "object"
@@ -190,7 +189,7 @@
                                     ]
                                 },
                                 {
-                                    "type": "menuitem",
+                                    "type": "Ext.menu.Item",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
@@ -203,7 +202,7 @@
                                     "designerId": "1802bcb5-6cf3-4bf4-957e-b9ba03270add",
                                     "cn": [
                                         {
-                                            "type": "colormenu",
+                                            "type": "Ext.menu.ColorPicker",
                                             "reference": {
                                                 "name": "menu",
                                                 "type": "object"
@@ -221,7 +220,7 @@
                     ]
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -235,21 +234,21 @@
                     "designerId": "1296ba04-5215-43e4-a172-50739c9efcd1",
                     "cn": [
                         {
-                            "type": "menu",
+                            "type": "Ext.menu.Menu",
                             "reference": {
                                 "name": "menu",
                                 "type": "object"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyMenu2",
                                 "width": 120,
+                                "designer|userClassName": "MyMenu2",
                                 "plain": true
                             },
                             "designerId": "397ca11b-fa65-4d44-9d70-d406d7873d74",
                             "cn": [
                                 {
-                                    "type": "menuitem",
+                                    "type": "Ext.menu.Item",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
@@ -262,7 +261,7 @@
                                     "designerId": "304ee641-78ca-4d3d-8f07-78bb2b9bc7d0"
                                 },
                                 {
-                                    "type": "menuitem",
+                                    "type": "Ext.menu.Item",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
@@ -275,7 +274,7 @@
                                     "designerId": "4fcc019f-c0af-4677-867e-37ff236c7e3f"
                                 },
                                 {
-                                    "type": "menuitem",
+                                    "type": "Ext.menu.Item",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
@@ -292,7 +291,7 @@
                     ]
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -306,7 +305,7 @@
                     "designerId": "684f55eb-dd23-4a52-af0e-5989d111b8d8"
                 },
                 {
-                    "type": "tbseparator",
+                    "type": "Ext.toolbar.Separator",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -319,7 +318,7 @@
                     "designerId": "467bda3c-3aaf-4dc4-8700-305f2fbc0453"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -333,7 +332,7 @@
                     "designerId": "3c7468be-c66a-43b5-bc78-32889cb2523b"
                 },
                 {
-                    "type": "tbseparator",
+                    "type": "Ext.toolbar.Separator",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -346,7 +345,7 @@
                     "designerId": "5faa1145-50b4-43ca-b9e8-58da5222208d"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -360,7 +359,7 @@
                     "designerId": "cb6abbd9-eff7-410c-a319-32ba51a6df14"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"

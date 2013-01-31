@@ -1,30 +1,29 @@
 {
-    "type": "panel",
+    "type": "Ext.panel.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "MyPanel",
-        "designer|initialView": true,
         "height": 250,
         "width": 400,
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
         "title": "My Panel"
     },
-    "id": "ExtBox1-ext-gen3703",
     "designerId": "33b2450a-19f8-4163-a35b-61f62655a5fe",
     "cn": [
         {
-            "type": "button",
+            "type": "Ext.button.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton",
                 "itemId": "sizeToggle",
+                "designer|userClassName": "MyButton",
                 "enableToggle": true,
                 "text": "MyButton"
             },

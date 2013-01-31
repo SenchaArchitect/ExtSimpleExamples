@@ -16,10 +16,10 @@
         "appName": "MyApp",
         "cssPath": ""
     },
-    "xdsVersion": "2.1.0",
-    "xdsBuild": 670,
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 840,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000498,
+    "upgradeVersion": 210000000499,
     "framework": "ext40",
     "topInstanceFileMap": {
         "2f0a83e9-cc8c-4aeb-b6d7-6f685decfa16": {

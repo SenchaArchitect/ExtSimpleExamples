@@ -1,26 +1,25 @@
 {
-    "type": "treepanel",
+    "type": "Ext.tree.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "CheckTreePanel",
-        "designer|initialView": true,
         "frame": true,
         "height": 250,
         "width": 200,
+        "designer|userClassName": "CheckTreePanel",
+        "designer|initialView": true,
         "title": "Check Tree",
         "store": "MyJsonTreeStore",
         "rootVisible": false,
         "useArrows": true
     },
-    "id": "ExtBox1-ext-gen8969",
     "designerId": "210fbfe1-6a19-44e9-a66c-998d552d87da",
     "cn": [
         {
-            "type": "treeview",
+            "type": "Ext.tree.View",
             "reference": {
                 "name": "viewConfig",
                 "type": "object"
@@ -32,7 +31,7 @@
             "designerId": "ec813396-a542-49b2-ba60-1014d68619ca"
         },
         {
-            "type": "toolbar",
+            "type": "Ext.toolbar.Toolbar",
             "reference": {
                 "name": "dockedItems",
                 "type": "array"
@@ -45,7 +44,7 @@
             "designerId": "16f06239-d5c0-4f92-ae22-57bd8c7647dd",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"

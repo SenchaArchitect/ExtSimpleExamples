@@ -1,5 +1,5 @@
 {
-    "type": "application",
+    "type": "Ext.app.Application",
     "reference": {
         "name": "items",
         "type": "array"
@@ -15,6 +15,5 @@
         "autoCreateViewport": true,
         "name": "MyApp"
     },
-    "id": "ExtBox1-ext-gen78246",
     "designerId": "application"
 }
