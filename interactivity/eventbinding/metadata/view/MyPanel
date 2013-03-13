@@ -1,22 +1,21 @@
 {
-    "type": "panel",
+    "type": "Ext.panel.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "MyPanel",
-        "designer|initialView": true,
         "height": 250,
         "width": 400,
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
         "title": "My Panel"
     },
-    "id": "ExtBox1-ext-gen1848",
     "designerId": "ba462971-dcd9-4050-adb0-f261eb42500a",
     "cn": [
         {
-            "type": "button",
+            "type": "Ext.button.Button",
             "reference": {
                 "name": "items",
                 "type": "array"

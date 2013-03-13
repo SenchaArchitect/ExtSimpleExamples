@@ -6,15 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "ComboStore",
         "storeId": "MyArrayStore",
+        "designer|userClassName": "ComboStore",
         "data": "[['One'], ['Two'], ['Three']]"
     },
-    "id": "ExtBox1-ext-gen22950",
     "designerId": "e9a5055a-f6e2-4d98-bf33-0d1fd5153385",
     "cn": [
         {
-            "type": "memoryproxy",
+            "type": "Ext.data.proxy.Memory",
             "reference": {
                 "name": "proxy",
                 "type": "object"
@@ -26,7 +25,7 @@
             "designerId": "f78c7e6a-eeff-4193-9c8a-252e86784f70",
             "cn": [
                 {
-                    "type": "arrayreader",
+                    "type": "Ext.data.reader.Array",
                     "reference": {
                         "name": "reader",
                         "type": "object"
@@ -40,15 +39,15 @@
             ]
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField",
-                "name": "text"
+                "name": "text",
+                "designer|userClassName": "MyField"
             },
             "designerId": "b3a5aa97-58b0-4413-b505-b04f91de9f3b"
         }

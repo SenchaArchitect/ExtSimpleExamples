@@ -1,7 +1,7 @@
 {
     "name": "check-tree",
     "settings": {
-        "urlPrefix": "http://localhost/SenchaDesignerExamples/ext40/check-tree/",
+        "urlPrefix": "http://localhost/ExtSimpleExamples/check-tree/",
         "spacesToIndent": 4,
         "exportPath": "",
         "sdkPath": "",
@@ -13,12 +13,13 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
+        "appName": "MyApp",
+        "buildShouldOverwriteIndex": true
     },
-    "xdsVersion": "2.1.0",
-    "xdsBuild": 670,
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 840,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000498,
+    "upgradeVersion": 210000000499,
     "framework": "ext40",
     "topInstanceFileMap": {
         "210fbfe1-6a19-44e9-a66c-998d552d87da": {
