@@ -1,119 +1,122 @@
 {
-    "type": "store",
+    "type": "Ext.data.Store",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "storeId": "MyStore",
         "designer|userClassName": "MyStore",
-        "storeId": "MyStore"
+        "data": "[{\"name\":\"January\",\"data1\":27,\"data2\":65,\"data3\":79,\"data4\":99,\"data5\":20,\"data6\":52,\"data7\":23,\"data8\":20,\"data9\":67},{\"name\":\"February\",\"data1\":28,\"data2\":45,\"data3\":21,\"data4\":21,\"data5\":99,\"data6\":77,\"data7\":80,\"data8\":75,\"data9\":92},{\"name\":\"March\",\"data1\":33,\"data2\":20,\"data3\":20,\"data4\":20,\"data5\":31,\"data6\":96,\"data7\":96,\"data8\":31,\"data9\":90},{\"name\":\"April\",\"data1\":97,\"data2\":20,\"data3\":46,\"data4\":60,\"data5\":20,\"data6\":87,\"data7\":88,\"data8\":90,\"data9\":89},{\"name\":\"May\",\"data1\":20,\"data2\":42,\"data3\":99,\"data4\":79,\"data5\":67,\"data6\":26,\"data7\":85,\"data8\":72,\"data9\":54},{\"name\":\"June\",\"data1\":20,\"data2\":94,\"data3\":79,\"data4\":20,\"data5\":28,\"data6\":49,\"data7\":20,\"data8\":67,\"data9\":60},{\"name\":\"July\",\"data1\":99,\"data2\":66,\"data3\":70,\"data4\":32,\"data5\":51,\"data6\":30,\"data7\":56,\"data8\":96,\"data9\":75},{\"name\":\"August\",\"data1\":42,\"data2\":59,\"data3\":23,\"data4\":54,\"data5\":29,\"data6\":68,\"data7\":20,\"data8\":67,\"data9\":48},{\"name\":\"September\",\"data1\":76,\"data2\":20,\"data3\":67,\"data4\":53,\"data5\":94,\"data6\":39,\"data7\":54,\"data8\":88,\"data9\":20},{\"name\":\"October\",\"data1\":58,\"data2\":23,\"data3\":23,\"data4\":59,\"data5\":63,\"data6\":29,\"data7\":20,\"data8\":20,\"data9\":25},{\"name\":\"November\",\"data1\":20,\"data2\":73,\"data3\":91,\"data4\":53,\"data5\":25,\"data6\":64,\"data7\":70,\"data8\":20,\"data9\":36},{\"name\":\"December\",\"data1\":20,\"data2\":57,\"data3\":20,\"data4\":28,\"data5\":50,\"data6\":20,\"data7\":59,\"data8\":51,\"data9\":47}]"
     },
-    "id": "ExtBox1-ext-gen14033",
+    "mockCfgs": [
+        "data"
+    ],
     "designerId": "613a5e61-a5b9-4423-8837-9f746de96e01",
     "cn": [
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField",
-                "name": "name"
+                "name": "name",
+                "designer|userClassName": "MyField"
             },
             "designerId": "7529d9c3-45f9-4d19-bd31-165078cd5b28"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField1",
                 "name": "data1",
-                "type": null
+                "type": null,
+                "designer|userClassName": "MyField1"
             },
             "designerId": "81af2745-9543-4c5e-9f12-5d2716aaff52"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField2",
-                "name": "data2"
+                "name": "data2",
+                "designer|userClassName": "MyField2"
             },
             "designerId": "a8061a74-8ef6-463c-a588-0b5a3ee5eb61"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField3",
-                "name": "data3"
+                "name": "data3",
+                "designer|userClassName": "MyField3"
             },
             "designerId": "77d026ef-a561-41bc-843d-327a1c0344d0"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField4",
-                "name": "data4"
+                "name": "data4",
+                "designer|userClassName": "MyField4"
             },
             "designerId": "61fda478-94c8-4b24-9e85-942f6a99dd6f"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField5",
-                "name": "data5"
+                "name": "data5",
+                "designer|userClassName": "MyField5"
             },
             "designerId": "b1af54dc-5c3a-4dad-81c9-647f48dfaa52"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField6",
-                "name": "data6"
+                "name": "data6",
+                "designer|userClassName": "MyField6"
             },
             "designerId": "081f5d91-2173-4628-8963-859ab01639c3"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField7",
-                "name": "data7"
+                "name": "data7",
+                "designer|userClassName": "MyField7"
             },
             "designerId": "d94cf916-436b-46f9-b994-b579e61e78f2"
         }

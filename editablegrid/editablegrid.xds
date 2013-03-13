@@ -9,10 +9,10 @@
         "genTimestamps": false,
         "cacheBust": false
     },
-    "xdsVersion": "2.1.0",
-    "xdsBuild": 670,
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 840,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000498,
+    "upgradeVersion": 210000000499,
     "framework": "ext41",
     "topInstanceFileMap": {
         "4fc00b67-1f2d-4197-89ae-5cfccc16877d": {

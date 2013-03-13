@@ -1,25 +1,23 @@
 {
-    "type": "form",
+    "type": "Ext.form.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "ComplexLayoutForm",
-        "designer|userAlias": "complexlayoutform",
         "frame": true,
         "height": 357,
         "width": 513,
+        "designer|userClassName": "ComplexLayoutForm",
+        "designer|userAlias": "complexlayoutform",
         "bodyPadding": 10,
-        "minButtonWidth": null,
         "title": "Multi column, Nested Layouts and Anchoring"
     },
-    "id": "ExtBox1-ext-gen36004",
     "designerId": "415d69c7-ca15-4743-86c0-8d89812d2e94",
     "cn": [
         {
-            "type": "container",
+            "type": "Ext.container.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -32,7 +30,7 @@
             "designerId": "b724841b-a91d-4a9a-a18a-2bbe3606d788",
             "cn": [
                 {
-                    "type": "container",
+                    "type": "Ext.container.Container",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -46,7 +44,7 @@
                     "designerId": "5332ec68-4628-4f72-8cb8-2448ea144cee",
                     "cn": [
                         {
-                            "type": "textfield",
+                            "type": "Ext.form.field.Text",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -60,7 +58,7 @@
                             "designerId": "9afb4908-25ef-478a-9c2a-b78c456efb8f"
                         },
                         {
-                            "type": "textfield",
+                            "type": "Ext.form.field.Text",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -76,7 +74,7 @@
                     ]
                 },
                 {
-                    "type": "container",
+                    "type": "Ext.container.Container",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -90,7 +88,7 @@
                     "designerId": "b267f0b2-7e9f-4cd9-9def-b244a4ee0d34",
                     "cn": [
                         {
-                            "type": "textfield",
+                            "type": "Ext.form.field.Text",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -104,7 +102,7 @@
                             "designerId": "dd95e2c3-3ce0-4024-8167-ea633188dce3"
                         },
                         {
-                            "type": "textfield",
+                            "type": "Ext.form.field.Text",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -122,7 +120,7 @@
             ]
         },
         {
-            "type": "htmleditor",
+            "type": "Ext.form.field.HtmlEditor",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -130,17 +128,17 @@
             "codeClass": null,
             "userConfig": {
                 "layout|anchor": "100%",
-                "designer|userClassName": "MyHTMLEditor",
                 "height": 200,
                 "style": [
                     "background-color: white;"
                 ],
+                "designer|userClassName": "MyHTMLEditor",
                 "fieldLabel": "Label"
             },
             "designerId": "796fe67d-01f8-4f7e-b490-9399ff4f35d0"
         },
         {
-            "type": "toolbar",
+            "type": "Ext.toolbar.Toolbar",
             "reference": {
                 "name": "dockedItems",
                 "type": "array"
@@ -148,15 +146,12 @@
             "codeClass": null,
             "userConfig": {
                 "dock": "bottom",
-                "designer|userClassName": "MyToolbar",
-                "ui": [
-                    "footer"
-                ]
+                "designer|userClassName": "MyToolbar"
             },
             "designerId": "368a5c4b-eabf-46ca-bc31-960cc3e4b458",
             "cn": [
                 {
-                    "type": "tbfill",
+                    "type": "Ext.toolbar.Fill",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -169,7 +164,7 @@
                     "designerId": "2a7091f6-3de1-40e4-b409-46bc502a79bf"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -183,7 +178,7 @@
                     "designerId": "eeb41001-7877-4035-89e3-145a0d3f9e17"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"

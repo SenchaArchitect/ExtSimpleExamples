@@ -1,18 +1,17 @@
 {
-    "type": "combobox",
+    "type": "Ext.form.field.ComboBox",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "width": 135,
         "designer|userClassName": "MyComboBox",
         "designer|userAlias": "mycombobox",
-        "width": 135,
         "fieldLabel": null,
         "queryMode": "local",
         "store": "ComboStore"
     },
-    "id": "ExtBox1-ext-gen20090",
     "designerId": "a3b69168-62a2-4af4-bccf-0528f6af43ba"
 }

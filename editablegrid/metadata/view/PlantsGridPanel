@@ -1,56 +1,55 @@
 {
-    "type": "gridpanel",
+    "type": "Ext.grid.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "PlantsGridPanel",
-        "designer|userAlias": "plantsgrid",
-        "designer|initialView": true,
         "frame": true,
         "height": 300,
         "width": 600,
+        "designer|userClassName": "PlantsGridPanel",
+        "designer|userAlias": "plantsgrid",
+        "designer|initialView": true,
         "title": "Edit Plants?",
         "store": "Plants"
     },
-    "id": "ExtBox1-ext-gen2287",
     "designerId": "4fc00b67-1f2d-4197-89ae-5cfccc16877d",
     "cn": [
         {
-            "type": "gridcolumn",
+            "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn",
                 "id": "common",
+                "designer|userClassName": "MyColumn",
                 "dataIndex": "common",
-                "flex": 1,
-                "text": "Common Name"
+                "text": "Common Name",
+                "flex": 1
             },
             "designerId": "959d7afc-89fd-4ec9-9f11-333023969308"
         },
         {
-            "type": "gridcolumn",
+            "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn1",
                 "width": 130,
+                "designer|userClassName": "MyColumn1",
                 "dataIndex": "light",
                 "text": "Light"
             },
             "designerId": "36fb8676-c60a-4871-af06-f892c13160c5",
             "cn": [
                 {
-                    "type": "combobox",
+                    "type": "Ext.form.field.ComboBox",
                     "reference": {
                         "name": "editor",
                         "type": "object"
@@ -68,15 +67,15 @@
             ]
         },
         {
-            "type": "gridcolumn",
+            "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn2",
                 "width": 70,
+                "designer|userClassName": "MyColumn2",
                 "align": "right",
                 "dataIndex": "price",
                 "text": "Price"
@@ -109,7 +108,7 @@
                     "designerId": "5d2ebc44-9bbd-43b4-9450-dfae943afd71"
                 },
                 {
-                    "type": "numberfield",
+                    "type": "Ext.form.field.Number",
                     "reference": {
                         "name": "editor",
                         "type": "object"
@@ -126,15 +125,15 @@
             ]
         },
         {
-            "type": "gridcolumn",
+            "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn3",
                 "width": 95,
+                "designer|userClassName": "MyColumn3",
                 "dataIndex": "availDate",
                 "text": "Available"
             },
@@ -166,7 +165,7 @@
                     "designerId": "99280ab6-18b8-4dec-ba34-5ba0f3a1dfe3"
                 },
                 {
-                    "type": "datefield",
+                    "type": "Ext.form.field.Date",
                     "reference": {
                         "name": "editor",
                         "type": "object"
@@ -183,7 +182,7 @@
             ]
         },
         {
-            "type": "gridview",
+            "type": "Ext.grid.View",
             "reference": {
                 "name": "viewConfig",
                 "type": "object"
@@ -195,32 +194,31 @@
             "designerId": "bdd87768-9730-4264-8886-bf843dd83821"
         },
         {
-            "type": "gridcelleditingplugin",
+            "type": "Ext.grid.plugin.CellEditing",
             "reference": {
                 "name": "plugins",
                 "type": "array"
             },
             "codeClass": "Ext.grid.plugin.CellEditing",
             "userConfig": {
-                "designer|userClassName": "MyCellEditingPlugin",
-                "pluginId": "CellEditing"
+                "pluginId": "CellEditing",
+                "designer|userClassName": "MyCellEditingPlugin"
             },
             "designerId": "86025254-396a-4669-939a-4083aebe417d"
         },
         {
-            "type": "actioncolumn",
+            "type": "Ext.grid.column.Action",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyActionColumn",
                 "frame": false,
                 "height": null,
                 "id": "delete",
                 "width": 30,
-                "sortable": false
+                "designer|userClassName": "MyActionColumn"
             },
             "designerId": "a055c721-a7f3-4979-94eb-8675db34ca0e",
             "cn": [
@@ -269,7 +267,7 @@
             ]
         },
         {
-            "type": "cellselectionmodel",
+            "type": "Ext.selection.CellModel",
             "reference": {
                 "name": "selModel",
                 "type": "object"
@@ -281,7 +279,7 @@
             "designerId": "09499740-e9ee-4bd5-82da-47920040351d"
         },
         {
-            "type": "toolbar",
+            "type": "Ext.toolbar.Toolbar",
             "reference": {
                 "name": "dockedItems",
                 "type": "array"
@@ -294,7 +292,7 @@
             "designerId": "c39389ee-3e0f-43b7-a1a5-8ca7fe667ece",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -302,8 +300,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton",
                         "id": "add",
+                        "designer|userClassName": "MyButton",
                         "text": "Add Plant"
                     },
                     "designerId": "e34773a8-2f07-4de3-9d55-7059cce5f9dd",
