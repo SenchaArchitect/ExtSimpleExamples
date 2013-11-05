@@ -1,0 +1,58 @@
+{
+    "name": "dynamicForm",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.33",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "urlPrefix": "http://localhost:4000/dynamicForm",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "cssPath": "",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000002,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "bf1a0f8c-b532-4091-b840-140f6fd8fa77",
+            "415d69c7-ca15-4743-86c0-8d89812d2e94",
+            "40a9bdb8-e68d-4cdf-9be4-80170950d154",
+            "cc8897bd-a2b0-45f8-8dbc-c6568a73e9b7",
+            "d7a7e6af-19be-4235-b92d-f8c886f10777",
+            "340476aa-6d5c-4bc9-a1b7-b24cad29bcd3"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "02ce0e84-bd46-4d58-b6bd-2f77cc388d15"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
