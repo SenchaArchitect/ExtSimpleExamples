@@ -7,14 +7,14 @@
     "codeClass": null,
     "userConfig": {
         "autoShow": true,
-        "height": 600,
-        "width": 800,
-        "designer|userClassName": "MyWindow",
-        "designer|userAlias": "mywindow",
         "designer|initialView": true,
+        "designer|userAlias": "mywindow",
+        "designer|userClassName": "MyWindow",
+        "height": 600,
         "layout": "fit",
+        "maximizable": true,
         "title": "Area Chart",
-        "maximizable": true
+        "width": 800
     },
     "designerId": "2f0a83e9-cc8c-4aeb-b6d7-6f685decfa16",
     "cn": [
@@ -26,8 +26,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dock": "top",
-                "designer|userClassName": "MyToolbar"
+                "dock": "top"
             },
             "designerId": "416bb12b-d066-42b0-8cba-c710ad5aac01",
             "cn": [
@@ -40,7 +39,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton",
                         "text": "Reload Data"
                     },
                     "designerId": "8849040b-6b28-48e2-9a0c-05cbf60d7ba5",
@@ -53,7 +51,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onButtonClick",
                                 "fn": "onButtonClick",
                                 "implHandler": [
                                     "this.refreshData();"
@@ -73,9 +70,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
-                        "designer|userClassName": "MyButton1",
                         "enableToggle": true,
+                        "layout|flex": null,
                         "pressed": true,
                         "text": "Animate"
                     },
@@ -89,7 +85,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onButtonToggle",
                                 "fn": "onButtonToggle",
                                 "implHandler": [
                                     "var chart = this.child('chart');",
@@ -112,15 +107,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": 250,
-                "itemId": "chart",
-                "width": 400,
-                "designer|userClassName": "MyChart",
                 "animate": [
                     "true"
                 ],
+                "height": 250,
                 "insetPadding": 20,
-                "store": "MyStore"
+                "itemId": "chart",
+                "store": "MyStore",
+                "width": 400
             },
             "designerId": "5644be3d-bd94-4680-9950-a6f69b3e3633",
             "cn": [
@@ -132,7 +126,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyNumericAxis",
+                        "fields": [
+                            "data1",
+                            "data2",
+                            "data3",
+                            "data4",
+                            "data5",
+                            "data6",
+                            "data7"
+                        ],
                         "grid": [
                             "{",
                             "                    odd: {",
@@ -143,18 +145,9 @@
                             "                    }",
                             "                }"
                         ],
-                        "position": "left",
-                        "title": "Numeric Axis",
-                        "fields": [
-                            "data1",
-                            "data2",
-                            "data3",
-                            "data4",
-                            "data5",
-                            "data6",
-                            "data7"
-                        ],
-                        "minimum": 0
+                        "minimum": 0,
+                        "position": "bottom",
+                        "title": "Numeric Axis"
                     },
                     "designerId": "af831918-d492-44b5-8f67-92658448335c"
                 },
@@ -166,17 +159,16 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyCategoryAxis",
-                        "grid": [
-                            "true"
-                        ],
-                        "title": "Month of the Year",
                         "fields": [
                             "name"
                         ],
+                        "grid": [
+                            "true"
+                        ],
                         "label": [
                             "{\"rotate\":{\"degrees\":315}}"
-                        ]
+                        ],
+                        "title": "Month of the Year"
                     },
                     "designerId": "ffc0b368-4f45-4c72-b6e7-5a7dd8786ad0"
                 },
@@ -188,7 +180,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyAreaSeries",
                         "xField": "name",
                         "yField": [
                             "data1",
@@ -212,7 +203,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "refreshData",
                 "fn": "refreshData",
                 "implHandler": [
                     "var data = [],",
@@ -249,7 +239,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onWindowAfterRender",
                 "fn": "onWindowAfterRender",
                 "implHandler": [
                     "this.refreshData();"

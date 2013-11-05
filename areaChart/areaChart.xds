@@ -1,0 +1,55 @@
+{
+    "name": "areaChart",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.33",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "urlPrefix": "http://localhost:4000/areaChart",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "cssPath": "",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000002,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "2f0a83e9-cc8c-4aeb-b6d7-6f685decfa16"
+        ],
+        "store": [
+            "613a5e61-a5b9-4423-8837-9f746de96e01"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "464e301b-dd9d-4c4b-b030-b6874e6ff0be"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
