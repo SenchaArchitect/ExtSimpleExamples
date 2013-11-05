@@ -1,36 +1,34 @@
 {
     "name": "eventbinding",
     "settings": {
-        "urlPrefix": "",
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.33",
+            "frameworkVersion": "4.1.1"
+        },
+        "urlPrefix": "http://localhost:4000/interactivity/eventbinding",
         "spacesToIndent": 4,
         "exportPath": "",
         "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
-        "cacheBust": false
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "ext41",
-    "topInstanceFileMap": {
-        "ba462971-dcd9-4050-adb0-f261eb42500a": {
-            "paths": [
-                "metadata/view/MyPanel",
-                "app/view/override/MyPanel.js",
-                "app/view/MyPanel.js",
-                "app/view/Viewport.js"
-            ],
-            "className": "MyPanel"
+        "cacheBust": false,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
         },
-        "3cdeed92-0433-4b0a-8fc2-9503c9963190": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
-        }
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000002,
+    "framework": "ext42",
     "viewOrderMap": {
         "view": [
             "ba462971-dcd9-4050-adb0-f261eb42500a"

@@ -6,11 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": 250,
-        "width": 400,
-        "designer|userClassName": "MyPanel",
         "designer|initialView": true,
-        "title": "My Panel"
+        "designer|userClassName": "MyPanel",
+        "height": 250,
+        "title": "My Panel",
+        "width": 400
     },
     "designerId": "ba462971-dcd9-4050-adb0-f261eb42500a",
     "cn": [
@@ -22,7 +22,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton",
                 "enableToggle": true,
                 "text": "MyButton"
             },
@@ -36,7 +35,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "onButtonToggle",
                         "fn": "onButtonToggle",
                         "implHandler": [
                             "if (pressed) {",
