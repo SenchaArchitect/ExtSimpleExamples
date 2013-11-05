@@ -1,7 +1,12 @@
 {
     "name": "menu",
     "settings": {
-        "urlPrefix": "http://localhost/",
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.33",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "urlPrefix": "http://localhost:4000/menu",
         "spacesToIndent": 4,
         "exportPath": "",
         "sdkPath": "",
@@ -14,46 +19,23 @@
         "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp",
-        "cssPath": ""
+        "cssPath": "",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
     },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "ext41",
-    "topInstanceFileMap": {
-        "990d7fd5-5b1a-43aa-953b-8ecf4961376d": {
-            "paths": [
-                "metadata/view/MyPanel",
-                "app/view/override/MyPanel.js",
-                "app/view/MyPanel.js",
-                "app/view/Viewport.js"
-            ],
-            "className": "MyPanel"
-        },
-        "a3b69168-62a2-4af4-bccf-0528f6af43ba": {
-            "paths": [
-                "metadata/view/MyComboBox",
-                "app/view/override/MyComboBox.js",
-                "app/view/MyComboBox.js"
-            ],
-            "className": "MyComboBox"
-        },
-        "e9a5055a-f6e2-4d98-bf33-0d1fd5153385": {
-            "paths": [
-                "metadata/store/ComboStore",
-                "app/store/override/ComboStore.js",
-                "app/store/ComboStore.js"
-            ],
-            "className": "ComboStore"
-        },
-        "5c9acaab-5bfa-4d18-8386-803272f88da8": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
-        }
-    },
+    "upgradeVersion": 300000000002,
+    "framework": "ext42",
     "viewOrderMap": {
         "view": [
             "990d7fd5-5b1a-43aa-953b-8ecf4961376d",

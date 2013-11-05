@@ -6,11 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": 257,
-        "width": 584,
-        "designer|userClassName": "MyPanel",
         "designer|initialView": true,
-        "title": "My Panel"
+        "designer|userClassName": "MyPanel",
+        "height": 257,
+        "title": "My Panel",
+        "width": 584
     },
     "designerId": "990d7fd5-5b1a-43aa-953b-8ecf4961376d",
     "cn": [
@@ -22,8 +22,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dock": "top",
-                "designer|userClassName": "MyToolbar"
+                "dock": "top"
             },
             "designerId": "fb9dfc5e-f274-4497-8f4e-926e90f767bf",
             "cn": [
@@ -36,7 +35,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton",
                         "text": "Button w/ Menu"
                     },
                     "designerId": "440b97a9-202a-43d6-ae7b-0d5ab29f8178",
@@ -48,9 +46,6 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "userConfig": {
-                                "designer|userClassName": "MyMenu"
-                            },
                             "designerId": "238d9ea7-bf84-4543-a833-a0008e065ec2",
                             "cn": [
                                 {
@@ -71,7 +66,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyMenuItem",
                                         "text": "Radio Options"
                                     },
                                     "designerId": "0226b710-9858-49dc-a5d5-f75414ae4698",
@@ -84,8 +78,7 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "width": 120,
-                                                "designer|userClassName": "MyMenu1"
+                                                "width": 120
                                             },
                                             "designerId": "a4b3b066-d6a3-4f33-8f19-9825841d1c5a",
                                             "cn": [
@@ -99,8 +92,7 @@
                                                     "userConfig": {
                                                         "html": [
                                                             "<b class=\"menu-title\">Choose a Theme</b>"
-                                                        ],
-                                                        "designer|userClassName": "MyComponent"
+                                                        ]
                                                     },
                                                     "designerId": "2c96609d-f2c8-46b5-8382-7b95c65d58cb"
                                                 },
@@ -112,7 +104,6 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "designer|userClassName": "MyMenuItem3",
                                                         "text": "Aero Glass"
                                                     },
                                                     "designerId": "ce9b0e96-e175-4aa7-81ec-41e5edc4e1f0"
@@ -125,7 +116,6 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "designer|userClassName": "MyMenuItem4",
                                                         "text": "Vista Black"
                                                     },
                                                     "designerId": "eaaf9aa6-efce-44c4-bc81-1d5c8c71f74d"
@@ -138,7 +128,6 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "designer|userClassName": "MyMenuItem5",
                                                         "text": "Gray Theme"
                                                     },
                                                     "designerId": "ae39b92f-e36f-40b5-9d4c-92aec4a05766"
@@ -151,7 +140,6 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "designer|userClassName": "MyMenuItem6",
                                                         "text": "Default Theme"
                                                     },
                                                     "designerId": "f4de57e5-1fb2-4a9d-b9ee-28e7482e9caf"
@@ -168,7 +156,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyMenuItem1",
                                         "iconCls": "calendar",
                                         "text": "Choose a Date"
                                     },
@@ -181,9 +168,6 @@
                                                 "type": "object"
                                             },
                                             "codeClass": null,
-                                            "userConfig": {
-                                                "designer|userClassName": "MyDateMenu"
-                                            },
                                             "designerId": "d49e1c76-a502-4914-afcc-95e587928d1e"
                                         }
                                     ]
@@ -196,7 +180,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyMenuItem2",
                                         "text": "Choose a Color"
                                     },
                                     "designerId": "1802bcb5-6cf3-4bf4-957e-b9ba03270add",
@@ -208,9 +191,6 @@
                                                 "type": "object"
                                             },
                                             "codeClass": null,
-                                            "userConfig": {
-                                                "designer|userClassName": "MyColorMenu"
-                                            },
                                             "designerId": "9b5b0108-f3ea-4758-8678-cf00fc0c9b89"
                                         }
                                     ]
@@ -228,7 +208,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton1",
                         "text": "Users"
                     },
                     "designerId": "1296ba04-5215-43e4-a172-50739c9efcd1",
@@ -241,9 +220,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "width": 120,
-                                "designer|userClassName": "MyMenu2",
-                                "plain": true
+                                "plain": true,
+                                "width": 120
                             },
                             "designerId": "397ca11b-fa65-4d44-9d70-d406d7873d74",
                             "cn": [
@@ -255,7 +233,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyMenuItem7",
                                         "text": "Menu Item"
                                     },
                                     "designerId": "304ee641-78ca-4d3d-8f07-78bb2b9bc7d0"
@@ -268,7 +245,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyMenuItem8",
                                         "text": "Menu Item"
                                     },
                                     "designerId": "4fcc019f-c0af-4677-867e-37ff236c7e3f"
@@ -281,7 +257,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyMenuItem9",
                                         "text": "Menu Item"
                                     },
                                     "designerId": "cab338b0-00be-4678-a786-dc4615b05115"
@@ -299,7 +274,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton2",
                         "text": "MyButton"
                     },
                     "designerId": "684f55eb-dd23-4a52-af0e-5989d111b8d8"
@@ -312,8 +286,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
-                        "designer|userClassName": "MySeparator"
+                        "layout|flex": null
                     },
                     "designerId": "467bda3c-3aaf-4dc4-8700-305f2fbc0453"
                 },
@@ -326,7 +299,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton3",
                         "text": "MyButton"
                     },
                     "designerId": "3c7468be-c66a-43b5-bc78-32889cb2523b"
@@ -339,8 +311,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
-                        "designer|userClassName": "MySeparator1"
+                        "layout|flex": null
                     },
                     "designerId": "5faa1145-50b4-43ca-b9e8-58da5222208d"
                 },
@@ -353,7 +324,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton4",
                         "text": "MyButton"
                     },
                     "designerId": "cb6abbd9-eff7-410c-a319-32ba51a6df14"
@@ -367,7 +337,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "designer|userClassName": "MyButton5",
                         "text": "MyButton"
                     },
                     "designerId": "a8c5bd34-a10d-4a46-abf8-f18582d4b98f"

@@ -6,14 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "name": "MyApp",
         "stores": [
             "ComboStore"
         ],
         "views": [
             "MyPanel"
-        ],
-        "autoCreateViewport": true,
-        "name": "MyApp"
+        ]
     },
     "designerId": "application"
 }
