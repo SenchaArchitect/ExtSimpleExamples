@@ -19,8 +19,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "common",
-                "type": "string",
-                "designer|userClassName": "MyField"
+                "type": "string"
             },
             "designerId": "12305158-391a-45e6-add6-418b667bf19d"
         },
@@ -33,8 +32,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "botanical",
-                "type": "string",
-                "designer|userClassName": "MyField1"
+                "type": "string"
             },
             "designerId": "18a7d305-ab29-424a-b817-820169f491fc"
         },
@@ -46,8 +44,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "light",
-                "designer|userClassName": "MyField2"
+                "name": "light"
             },
             "designerId": "bcd91a08-c0be-415d-bab3-a32f95e2ea76"
         },
@@ -60,8 +57,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "price",
-                "type": "float",
-                "designer|userClassName": "MyField3"
+                "type": "float"
             },
             "designerId": "66b35b1c-c45c-4456-887f-2802bcdb6bf9"
         },
@@ -76,8 +72,7 @@
                 "dateFormat": "m/d/Y",
                 "mapping": "availability",
                 "name": "availDate",
-                "type": "date",
-                "designer|userClassName": "MyField4"
+                "type": "date"
             },
             "designerId": "456f630a-7064-447d-8e0b-b8913131a164"
         },
@@ -90,8 +85,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "indoor",
-                "type": "boolean",
-                "designer|userClassName": "MyField5"
+                "type": "boolean"
             },
             "designerId": "8ff7af06-2542-42f7-80e3-f506c010a677"
         }
