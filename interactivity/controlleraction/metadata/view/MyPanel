@@ -6,11 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": 250,
-        "width": 400,
-        "designer|userClassName": "MyPanel",
         "designer|initialView": true,
-        "title": "My Panel"
+        "designer|userClassName": "MyPanel",
+        "height": 250,
+        "title": "My Panel",
+        "width": 400
     },
     "designerId": "33b2450a-19f8-4163-a35b-61f62655a5fe",
     "cn": [
@@ -22,9 +22,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "sizeToggle",
-                "designer|userClassName": "MyButton",
                 "enableToggle": true,
+                "itemId": "sizeToggle",
                 "text": "MyButton"
             },
             "designerId": "b815b33e-56fe-4504-9c98-16ff612a3ada"

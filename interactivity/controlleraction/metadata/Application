@@ -6,14 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "views": [
-            "MyPanel"
-        ],
-        "autoCreateViewport": true,
         "controllers": [
             "MyController"
         ],
-        "name": "MyApp"
+        "name": "MyApp",
+        "views": [
+            "MyPanel"
+        ]
     },
     "designerId": "application"
 }

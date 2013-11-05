@@ -18,7 +18,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onButtonToggle",
+                "designer|controlQuery": "button#sizeToggle",
+                "designer|targetType": "Ext.button.Button",
                 "fn": "onButtonToggle",
                 "implHandler": [
                     "var panel = button.up('panel');",
@@ -29,9 +30,7 @@
                     "}"
                 ],
                 "name": "toggle",
-                "scope": "me",
-                "designer|targetType": "Ext.button.Button",
-                "designer|controlQuery": "button#sizeToggle"
+                "scope": "me"
             },
             "designerId": "1f42d730-655c-4afc-b3f3-e4f4af6b43dc"
         }
