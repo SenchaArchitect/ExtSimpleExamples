@@ -1,2 +1,8 @@
 .DS_Store
-*.architect
+.architect
+.sencha
+.sencha_backup
+ext
+touch
+build
+build.xml
