@@ -6,14 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "name": "MyApp",
         "stores": [
             "MyJsonTreeStore"
         ],
         "views": [
             "CheckTreePanel"
-        ],
-        "autoCreateViewport": true,
-        "name": "MyApp"
+        ]
     },
     "designerId": "application"
 }
