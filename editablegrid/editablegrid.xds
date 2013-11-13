@@ -25,9 +25,9 @@
         "generateArchitectVersion": true
     },
     "xdsVersion": "3.0.0",
-    "xdsBuild": 0,
+    "xdsBuild": 1337,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000002,
+    "upgradeVersion": 300000000003,
     "framework": "ext42",
     "viewOrderMap": {
         "view": [
