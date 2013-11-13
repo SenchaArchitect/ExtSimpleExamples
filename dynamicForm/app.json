@@ -1,10 +1,11 @@
 {
-   "name": "dynamicForm",
+   "name": "MyApp",
    "requires": [],
-   "id": "217227cd-3895-47a1-8914-3a0529b396a1",
+   "id": "276c6faf-9092-46f8-a104-178d71b23b66",
    "resources": [],
    "_architect": {
       "_comment": "Please don't edit. This is Architect data.",
-      "resources": []
+      "resources": [],
+      "requires": []
    }
 }
