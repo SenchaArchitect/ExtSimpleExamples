@@ -6,7 +6,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "basePath": "ext/",
         "designer|userClassName": "Library"
     },
     "designerId": "5c9acaab-5bfa-4d18-8386-803272f88da8"
