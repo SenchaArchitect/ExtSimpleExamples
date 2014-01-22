@@ -1,4 +1,4 @@
-Ext.define('areaChart.view.Main', {
+Ext.define('MyApp.view.Main', {
     extend: 'Ext.container.Container',
     requires:[
         'Ext.tab.Panel',

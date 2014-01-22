@@ -8,15 +8,15 @@
     "userConfig": {
         "autoShow": true,
         "designer|initialView": true,
-        "designer|userAlias": "mywindow",
         "designer|userClassName": "MyWindow",
         "height": 600,
         "layout": "fit",
         "maximizable": true,
         "title": "Area Chart",
-        "width": 800
+        "width": 918
     },
-    "designerId": "2f0a83e9-cc8c-4aeb-b6d7-6f685decfa16",
+    "name": "MyWindow",
+    "designerId": "c48f66d2-b621-43ff-bad5-e573082de812",
     "cn": [
         {
             "type": "Ext.toolbar.Toolbar",
@@ -28,7 +28,8 @@
             "userConfig": {
                 "dock": "top"
             },
-            "designerId": "416bb12b-d066-42b0-8cba-c710ad5aac01",
+            "name": "MyToolbar",
+            "designerId": "200e8ae1-0511-4726-b4fc-b70c3b301e53",
             "cn": [
                 {
                     "type": "Ext.button.Button",
@@ -41,7 +42,8 @@
                         "layout|flex": null,
                         "text": "Reload Data"
                     },
-                    "designerId": "8849040b-6b28-48e2-9a0c-05cbf60d7ba5",
+                    "name": "MyButton",
+                    "designerId": "a2b66c4d-9c62-4853-97af-67190315b3c4",
                     "cn": [
                         {
                             "type": "basiceventbinding",
@@ -58,7 +60,8 @@
                                 "name": "click",
                                 "scope": "me"
                             },
-                            "designerId": "75f13f13-d58a-41c0-8815-325e90e3a1e3"
+                            "name": "onButtonClick",
+                            "designerId": "c8f79e66-b6be-4e41-bda3-8b588ba9179e"
                         }
                     ]
                 },
@@ -75,7 +78,8 @@
                         "pressed": true,
                         "text": "Animate"
                     },
-                    "designerId": "91118b2b-7f53-4624-8891-6c3ecab485ed",
+                    "name": "MyButton1",
+                    "designerId": "f7bb796b-8a3a-4c0f-acf3-db611fb55126",
                     "cn": [
                         {
                             "type": "basiceventbinding",
@@ -87,13 +91,14 @@
                             "userConfig": {
                                 "fn": "onButtonToggle",
                                 "implHandler": [
-                                    "var chart = this.child('chart');",
+                                    "var chart = this.child('chart');\r",
                                     "chart.animate = pressed ? {easing: 'ease', duration: 500} : false;"
                                 ],
                                 "name": "toggle",
                                 "scope": "me"
                             },
-                            "designerId": "837f7444-00ea-4ebd-915a-64e852874cd0"
+                            "name": "onButtonToggle",
+                            "designerId": "b8d16eba-5eb1-4e2c-9a06-1577bea09a5e"
                         }
                     ]
                 }
@@ -112,11 +117,14 @@
                 ],
                 "height": 250,
                 "insetPadding": 20,
-                "itemId": "chart",
                 "store": "MyStore",
                 "width": 400
             },
-            "designerId": "5644be3d-bd94-4680-9950-a6f69b3e3633",
+            "name": "LineChart",
+            "designerId": "6345009b-26dc-419b-ba21-64463b36a45b",
+            "isBuiltIn": true,
+            "iconCls": "icon-line-chart",
+            "autoName": "LineChart",
             "cn": [
                 {
                     "type": "Ext.chart.axis.Numeric",
@@ -135,21 +143,11 @@
                             "data6",
                             "data7"
                         ],
-                        "grid": [
-                            "{",
-                            "                    odd: {",
-                            "                        opacity: 1,",
-                            "                        fill: '#ddd',",
-                            "                        stroke: '#bbb',",
-                            "                        'stroke-width': 1",
-                            "                    }",
-                            "                }"
-                        ],
                         "minimum": 0,
-                        "position": "bottom",
                         "title": "Numeric Axis"
                     },
-                    "designerId": "af831918-d492-44b5-8f67-92658448335c"
+                    "name": "MyNumericAxis1",
+                    "designerId": "81d034b5-7263-4e66-9153-3a52e0b71fee"
                 },
                 {
                     "type": "Ext.chart.axis.Category",
@@ -162,15 +160,10 @@
                         "fields": [
                             "name"
                         ],
-                        "grid": [
-                            "true"
-                        ],
-                        "label": [
-                            "{\"rotate\":{\"degrees\":315}}"
-                        ],
-                        "title": "Month of the Year"
+                        "title": "Category Axis"
                     },
-                    "designerId": "ffc0b368-4f45-4c72-b6e7-5a7dd8786ad0"
+                    "name": "MyCategoryAxis1",
+                    "designerId": "dee15d34-f3b0-4976-88f8-3128be76750e"
                 },
                 {
                     "type": "Ext.chart.series.Area",
@@ -191,7 +184,8 @@
                             "data7"
                         ]
                     },
-                    "designerId": "ba391d4e-105e-4b4a-be21-20a6b39b8e3b"
+                    "name": "MyAreaSeries",
+                    "designerId": "14e1b8fc-0029-43b8-8786-1818858c9d16"
                 }
             ]
         },
@@ -205,48 +199,32 @@
             "userConfig": {
                 "fn": "refreshData",
                 "implHandler": [
-                    "var data = [],",
-                    "    floor = 20,",
-                    "    n = 12,",
-                    "    i;",
-                    "",
-                    "for (i = 0; i < n; i++) {",
-                    "    data.push({",
-                    "        name: Ext.Date.monthNames[i % 12],",
-                    "        data1: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data2: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data3: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data4: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data5: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data6: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data7: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data8: Math.floor(Math.max((Math.random() * 100), floor)),",
-                    "        data9: Math.floor(Math.max((Math.random() * 100), floor))",
-                    "    });",
-                    "}",
-                    "",
-                    "this.child('chart').store.loadData(data);",
+                    "var data = [],\r",
+                    "    floor = 20,\r",
+                    "    n = 12,\r",
+                    "    i;\r",
+                    "\r",
+                    "for (i = 0; i < n; i++) {\r",
+                    "    data.push({\r",
+                    "        name: Ext.Date.monthNames[i % 12],\r",
+                    "        data1: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data2: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data3: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data4: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data5: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data6: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data7: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data8: Math.floor(Math.max((Math.random() * 100), floor)),\r",
+                    "        data9: Math.floor(Math.max((Math.random() * 100), floor))\r",
+                    "    });\r",
+                    "}\r",
+                    "\r",
+                    "this.child('chart').store.loadData(data);\r",
                     ""
                 ]
             },
-            "designerId": "4d45f12b-2489-44b5-bc8a-a6d88300fea3"
-        },
-        {
-            "type": "basiceventbinding",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "onWindowAfterRender",
-                "implHandler": [
-                    "this.refreshData();"
-                ],
-                "name": "afterrender",
-                "scope": "me"
-            },
-            "designerId": "e026f61b-bb84-4d08-850d-7945c1c86761"
+            "name": "refreshData",
+            "designerId": "6274b4bf-8f5a-4d6b-b5c3-b6536987dc9a"
         }
     ]
 }
