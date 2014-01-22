@@ -1,5 +1,5 @@
-Ext.define('arrayGrid.Application', {
-    name: 'arrayGrid',
+Ext.define('MyApp.Application', {
+    name: 'MyApp',
 
     extend: 'Ext.app.Application',
 

@@ -1,0 +1,105 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyGridPanel1",
+        "height": 350,
+        "store": "MyArrayStore",
+        "title": "Array Grid",
+        "width": 600
+    },
+    "name": "MyGridPanel1",
+    "designerId": "aa6a869e-4baf-4afc-9c2b-9081753b82ad",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "company",
+                "flex": 1,
+                "text": "Company"
+            },
+            "name": "MyColumn2",
+            "designerId": "1fb4232b-4d06-4633-b771-e086f6f03b9a"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "price",
+                "text": "Price",
+                "width": 75
+            },
+            "name": "MyNumberColumn",
+            "designerId": "124f4e4f-0715-4f14-9201-1b97300b2020"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "change",
+                "text": "Change",
+                "width": 75
+            },
+            "name": "MyDateColumn",
+            "designerId": "c6c4b708-8aca-4490-91a7-d45ed7078d4b"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "pctChange",
+                "text": "PctChange",
+                "width": 85
+            },
+            "name": "MyBooleanColumn",
+            "designerId": "067f3932-c874-4ca3-8baa-de8f41dc23fe"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "lastChange",
+                "text": "LastChange",
+                "width": 85
+            },
+            "name": "MyNumberColumn1",
+            "designerId": "0e0f145a-9e0b-4767-9861-fe66003552eb"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyGridView",
+            "designerId": "5780477b-ef51-49e7-86cb-a92ba523272f"
+        }
+    ]
+}

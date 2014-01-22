@@ -2,24 +2,10 @@
     "name": "areaChart",
     "settings": {
         "cmd": {
-            "license": "commercial",
-            "cmdVersion": "4.0.1.33",
-            "frameworkVersion": "4.2.1.883"
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
         },
-        "urlPrefix": "http://localhost:4000/areaChart",
-        "spacesToIndent": 4,
-        "exportPath": "",
-        "sdkPath": "",
-        "lineEnding": "LF",
-        "genTimestamps": false,
-        "cacheBust": false,
-        "codeGenFormat": "Class",
-        "senchaIoKey": "",
-        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
-        "instantiateStore": true,
-        "saveOnDeploy": false,
-        "appName": "MyApp",
-        "cssPath": "",
         "canvasControls": {
             "viewportSize": {
                 "name": "Auto Expand",
@@ -28,25 +14,36 @@
                 "width": null
             }
         },
+        "urlPrefix": "http://localhost/quicktests/areaChart/",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
         "buildShouldOverwriteIndex": true,
-        "generateArchitectVersion": true
+        "generateArchitectVersion": true,
+        "displayfield-ExtBox1-1346-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1278-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1329-inputEl": "Not Installed"
     },
-    "xdsVersion": "3.0.0",
-    "xdsBuild": 1337,
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 0,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000003,
+    "upgradeVersion": 300000000006,
     "framework": "ext42",
     "viewOrderMap": {
         "view": [
-            "2f0a83e9-cc8c-4aeb-b6d7-6f685decfa16"
+            "c48f66d2-b621-43ff-bad5-e573082de812"
         ],
         "store": [
-            "613a5e61-a5b9-4423-8837-9f746de96e01"
+            "6d487a70-e5b9-400a-a811-a84e2ed47fa1"
         ],
         "controller": [],
         "model": [],
         "resource": [
-            "464e301b-dd9d-4c4b-b030-b6874e6ff0be"
+            "e586c720-9562-42b8-b3a7-0284b4cd9f8d",
+            "430dc32d-f499-410f-ab86-810959a170ee"
         ],
         "app": [
             "application"

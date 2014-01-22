@@ -1,5 +1,5 @@
-Ext.define('areaChart.Application', {
-    name: 'areaChart',
+Ext.define('MyApp.Application', {
+    name: 'MyApp',
 
     extend: 'Ext.app.Application',
 

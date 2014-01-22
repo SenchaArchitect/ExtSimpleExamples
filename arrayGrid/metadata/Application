@@ -11,25 +11,9 @@
             "MyArrayStore"
         ],
         "views": [
-            "MyGridPanel"
+            "MyGridPanel1"
         ]
     },
-    "designerId": "application",
-    "cn": [
-        {
-            "type": "fixedfunction",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "launch",
-                "implHandler": [
-                    ""
-                ]
-            },
-            "designerId": "d5e1d729-c679-4d4c-95e1-08a155b2365c"
-        }
-    ]
+    "name": "Application",
+    "designerId": "application"
 }

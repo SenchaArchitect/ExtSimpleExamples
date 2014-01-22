@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "name": "MyApp",
+        "name": "areaChart",
         "stores": [
             "MyStore"
         ],
@@ -14,5 +14,6 @@
             "MyWindow"
         ]
     },
+    "name": "Application",
     "designerId": "application"
 }
