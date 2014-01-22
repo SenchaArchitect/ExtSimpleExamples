@@ -1,3 +1,3 @@
-Ext.define('arrayGrid.controller.Main', {
+Ext.define('MyApp.controller.Main', {
     extend: 'Ext.app.Controller'
 });
